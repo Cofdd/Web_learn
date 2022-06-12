@@ -1,70 +1,32 @@
 <!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
 <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>Todo List App in JavaScript | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Iconscout Link For Icons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="task-input">
+        <img src="bars-icon.svg" alt="icon">
+        <input type="text" placeholder="Add a new task">
+      </div>
+      <div class="controls">
+        <div class="filters">
+          <span class="active" id="all">All</span>
+          <span id="pending">Pending</span>
+          <span id="completed">Completed</span>
+        </div>
+        <button class="clear-btn">Clear All</button>
+      </div>
+      <ul class="task-box"></ul>
+    </div>
 
-<head>
-  <meta charset="utf-8">
-  <title> MY PERSONAL INFORMATION (Not much tho) </title>
-</head>
+    <script src="script.js"></script>
 
-<body>
-  <h1>Tran Phan Nguyen</h1>
-  <p> <em> <strong> Ha Noi </strong> National University Student </em> </p>
-  <p> Im start to learn html css again </p>
-  <hr>
-  <h3><strong>My list</strong></h3>
-  <ul>
-
-    <li>cheking name</li>
-    <li>make sure that not the wrong one</li>
-  </ul>
-
-  <h3><strong>My 2nd list</strong></h3>
-
-  <ol>
-    <li><a href="my novel.html">read light novel</a></li>
-    <li><a href="https://store.steampowered.com/">Play game</a></li>
-    <li><a href="https://www.youtube.com/channel/UC5CwaMl1eIgY8h02uZw7u8A">watch v-tuber</a></li>
-  </ol>
-
-  <hr size=3 noshade>
-  <h3><strong>Suisei's image</strong></h3>
-  <img src="Sui_Main.png" alt="Suisei picture">
-
-
-<!-- table -->
-  <table>
-    <tr>
-      <th>Company</th>
-      <th>Contact</th>
-      <th>Country</th>
-    </tr>
-    <tr>
-      <td>Alfreds Futterkiste</td>
-      <td>Maria Anders</td>
-      <td>Germany</td>
-    </tr>
-    <tr>
-      <td>Centro comercial Moctezuma</td>
-      <td>Francisco Chang</td>
-      <td>Mexico</td>
-    </tr>
-  </table>
-
-
-
-  <form action="index.html" method="post">
-    <labe>your name:</labe>
-    <input type="text" name="Your name" id=""><br>
-    <labe>Your phone number</labe>
-    <input type="number" name="Your phone number" value=""><br>
-    <label for="">Password</label>
-    <input type="password" name="Password" value="">
-    <input type="submit" name="submit" value="">
-  </form>
-
-
-
-
-</body>
-
+  </body>
 </html>
